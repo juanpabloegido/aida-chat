@@ -25,6 +25,15 @@ Crea un archivo `.streamlit/secrets.toml` con las siguientes credenciales:
 api_key = "tu-api-key"
 ```
 
+## Run it locally
+
+```sh
+virtualenv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run Chatbot.py
+```
+
 ## Uso
 
 ```bash
